@@ -1,0 +1,311 @@
+@media screen and (max-width: 1024px) {
+        
+    .bannar-upper-text {
+        width: 48%;
+        margin-left: 130px;
+    }
+    .bannar {
+        height: 643px;
+    }
+    .catagory-text {
+        font-size: 16px;
+    }
+
+    .catagory-text {
+        font-size: 14px;
+    }
+    .catagory {
+        width: 29%;
+    }
+    .money-box {
+        height: 400px;
+        width: 29%;
+    }
+    .icon-box {
+        margin-left: 41px;
+  }
+  .sidetext {
+    margin: 11px 0px 0px 1px;
+    padding: 11px 0px 0px 23px;
+}
+.sidetext p {
+    line-height: 26px;
+    font-size: 16px;
+}
+.main-part-left {
+    width: 100%;
+}
+.post-text {
+    margin-top: 6px;
+}
+.post-head {
+    padding-top: 21px;
+}
+.sort-by-year {
+    /* margin-bottom: 30px; */
+    width: 45%;
+    float: left;
+}
+
+.sort-by-part {
+    float: left;
+    margin-top: 7px;
+    width: 35%;
+}
+.year-list {
+    font-size: 18px;
+    /* width: 100%; */
+    float: left;
+}
+.part-list li {
+    width: 100%;
+
+}
+
+.main-part-right {
+    margin-left: 47px;
+    width: 96%;
+}
+.middle-text h2 {
+    font-size: 37px;
+    margin-bottom: 20px;
+    padding-top: 38px;
+    font-weight: bold;
+}
+.middle-text p {
+    margin: 0 0 12px;
+    color: white;
+    font-size: 19px;
+}
+.go-program {
+    width: 21%;
+    margin-left: 272px;
+    margin-top: 30px;
+}
+.post-contain {
+    width: 90%;
+}
+
+.widget-list {
+    float: left;
+}
+.versity-logo {
+    float: left;
+}
+.social-widget ul {
+    text-align: center;
+    margin-left: 151px;
+}
+}
+/* for mobile web responsive design start
+here  */
+@media screen and (max-width: 425px) {
+
+    .navbar-default .navbar-nav>li>a {
+        color: #fff;
+        background-color: #5fcf80;;
+    }
+    
+    .navbar-default .navbar-toggle {
+        border-color: #5fcf80;
+    }
+    .bannar-upper-text {
+        width: 87%;
+        margin-left: 0px;
+    }
+    .bannar-upper-text h2 {
+        font-size: 20px;
+    }
+
+    .bannar-full-text.text-center {
+        margin: 91px 0 0 49px;
+        width: 87%;
+    }
+    .bannar-middle-text h2 {
+        font-size: 23px;
+        margin-right: 76px;
+    }
+
+    .bannar-middle-text {
+        margin: 24px 0;
+    }
+
+    .bannar-full-text a {
+        margin-right: 49px;
+    }
+
+    .bannar {
+        height: 560px;
+    }
+    .bg-color {
+        background-color: RGBA(12, 11, 11, 0.82);
+        min-height: 562px;
+    }
+
+    body {
+        width: 123%;
+    }
+
+    .catagory {
+        width: 24%;
+        height: 157px;
+    }
+
+    .main-catagory {
+        margin: 0 0 0 -16px;
+    }
+
+    .catagory-text {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 8px;
+    }
+
+    .sidetext {
+        height: 452px;
+        width: 100%;
+    }
+    .money-box {
+        /* height: 400px; */
+        width: 42%;
+        float: left;
+    }
+
+    .icon-box {
+        margin-left: 14px;
+    }
+
+    .post {
+        background-color: #5cfc80;
+        margin-bottom: 27px;
+        color: white;
+        height: 532px;
+    }
+
+    .post-img img {
+        height: 171px;
+        width: 325px;
+    }
+
+    .post-head {
+        font-size: 28px;
+        margin-left: 25px;
+    }
+    
+    .sort-header {
+        margin-left: 0px;
+  
+    }
+
+    .sort-by-year {
+        margin-bottom: 30px;
+        width: 50%;
+        float: left;
+        margin-left: -40px;
+    }
+
+    .sort-header {
+        margin-left: 32px;
+    }
+
+    .sort-by-part {
+        float: left;
+        /* margin-top: 7px; */
+        width: 43%;
+    }
+
+    .go-program {
+        width: 47%;
+        margin-left: 104px;
+        margin-top: 30px;
+    }
+
+    .middle-text {
+      height: 410px;
+        width: 104%;
+    }
+
+    .middle-text h2 {
+        font-size: 30px;
+    }
+
+    .middle-text p {
+        font-size: 21px;
+    }
+
+    .leftText h2 {
+        margin: 26px 0 0 47px;
+        font-size: 34px;
+        color: #fdf6f6;
+    }
+
+    .leftText {
+        float: left;
+        width: 100%;
+        margin-left: 16px;
+        margin-top: 27px;
+    }
+
+    .leftText p {
+        margin: 12px 45px 0px 22px;
+        font-size: 20px;
+        color: #f6f2f9;
+        text-align: center;
+    }
+
+    .rightText {
+        margin: 10px 0 0 139px;
+        float: left;
+    }
+
+    .getText {
+        height: 294px;
+        width: 100%;
+        background-color: #673AB7;
+    }
+
+    .versity-logo {
+        /* float: left; */
+        margin: 31px 0 30px 42px;
+    }
+
+    .widget-list {
+        float: left;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+
+    .social-widget ul {
+        text-align: center;
+        margin: 0px 0 56px -39px;
+    }
+    .social-widget ul li {
+        margin-bottom: 36px;
+        margin-top: 30px;
+    }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

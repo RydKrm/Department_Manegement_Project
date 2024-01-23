@@ -1,0 +1,722 @@
+/*
+    https     : www.thevariation.ml
+    Theme Name: Dept of ICE RU
+    Theme URL : https://thevariaton.ml
+    Author: Al Riyad Karim
+    Author URL: https://thevariaton.ml
+*/
+
+
+/* bootstrap css start here  */
+
+a:focus, a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* bootstrap css end here  */
+
+body {
+	font-size: 15px;
+	line-height: 1.52;
+	color: #717f86;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	background-color: #f8f9fb85;
+}
+
+.header-container {
+        margin-top: 16px;
+}
+.logo img {
+    height: 80px;
+    width: 120px;
+}
+
+.logo{
+    float: left;
+
+}
+.contact {
+    float: right;
+}
+.contact span {
+    font-size: 18px;
+    color: coral;
+    font-weight: 500;
+    float: right;
+}
+.contact p {
+    font-size: 19px;
+    /* float: right; */
+    color: coral;
+    font-weight: inherit;
+    margin-left: 74px;
+}
+
+/* nav bar start here  */
+
+nav.navbar.navbar-default.navbar-fixed-top {
+    height: 63px;
+    background-color: aliceblue;
+}
+
+.navbar-brand span {
+    color: #5fcd80;
+    font-weight: 600;
+}
+
+a.navbar-brand {
+    font-size: 39px;
+}
+
+.navbar-nav a {
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+/* slider part start here */
+
+ .slider{
+    /* background: url(../course05.jpg); */
+    background:linear-gradient(#00000052,#a0969652),url(../img/course05.jpg);
+    height: 500px;
+    width: 100%;
+    background-color: beige;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider h2 {
+    font-size: 50px;
+    /* float: none; */
+    color: #ecb49fd6;
+    padding: 100px 80px 0px;
+    font-family: Georgia, "Times New Roman", Times, se;
+    font-weight: 700;
+} 
+
+/* bannar css start here */
+
+
+.bannar{
+    background: url(../img/bg-banner.jpg) no-repeat center top;
+    background-size: cover;
+    height: 580px;
+}
+.bg-color {
+    background-color: RGBA(12, 11, 11, 0.82);
+    min-height: 580px;
+}
+.bannar-full-text.text-center {
+    color: white;
+    margin: 141px;
+}
+
+.bannar-upper-text {
+    width: 34%;
+    margin-left: 274px;
+}
+
+.bannar-upper-text h2 {
+    border: 5px solid #5fcf80; ;
+    padding: 23px 0px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.bannar-middle-text {
+    margin: 26px 0;
+}
+.bannar-middle-text h2 {
+    font-size: 36px;
+}
+
+.bannar-end-text {
+    width: 91%;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-bottom: 28px;
+}
+.bannar-full-text a{
+    background: #5fcf80;
+    padding: 12px 30px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+.bannar-full-text a:hover{
+    background-color: white;
+    color: #5fcf80;
+    border: 1px solid #5fcf80;
+    transition: 1s all;
+}
+
+/* bannar css end heere */
+
+.main-part {
+    /* width: 60%; */
+    /* height: 600px; */
+    margin-top: 25px;
+}
+
+.main-part-left {
+    width: 60%;
+    float: left;
+}
+.post {
+    background-color: #5cfc80;
+    padding-right: 4px;
+    height: 285px;
+    margin-bottom: 27px;
+    color: white;
+}
+.post-img img {
+    height: 100px;
+    width: 150px;
+    float: left;
+    margin-right: 42px;
+    margin-left: 6px;
+    margin-top: 18px;
+}
+
+.post-head {
+    font-size: 30px;
+}
+
+.img-head-contain {
+    /* height: 135px; */
+    margin: 30px 0 0 8px;
+}
+.post-text {
+    margin-top: 42px;
+    text-align: justify;
+    padding: 0 36px 0 28px;
+    margin-bottom: 37px;
+}
+
+.post-text a {
+    padding: 0px;
+    border: 1px solid white;
+    color: white;
+    margin: 0 0 0 3px;
+}
+
+.post-text a:hover{
+    background-color: white;
+    color: #5cfc80;
+    font: 15px;
+    text-decoration: none;
+}
+/* right part start here---- */
+/* .main-part-right {
+    float: right;
+}
+
+.main-part-right {
+    float: left;
+    margin: 31px 0 0 60px;
+    padding: 10px;
+}
+
+.sort-by-year {
+    margin-bottom: 30px;
+} */
+
+.main-part-right {
+    float: right;
+    width: 35%;
+}
+
+.sort-header {
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-left: 123px;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.year-list {
+    font-size: 18px;
+    width: 142%;
+}
+
+.year-list li {
+    margin: 7px 0;
+    padding: 3px;
+    border: 2px solid #5cfc80;
+    text-align: center;
+    width: 75%;
+    display: block;
+    color: white;
+}
+
+
+.sort-by-year {
+    margin-bottom: 30px;
+}
+.sort-header {
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-left: 131px;
+    text-align: center;
+    padding-left: 0px;
+    color: #5cfc80;
+}
+
+.part-list {
+    font-size: 18px;
+    width: 142%;
+}
+
+.part-list li {
+    margin: 7px 0;
+    padding: 3px;
+    border: 2px solid #6cfc80;
+    text-align: center;
+    width: 76%;
+    display: block;
+}
+
+.middle-text {
+    /* text-align: center; */
+    /* margin: 1px 1px 30px 9px; */
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0.8;
+    color: white;
+    background-image: url(../img/ilya-pavlov-87438-unsplash.jpg);
+    height: 356px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.middle-text h2 {
+    font-size: 49px;
+    margin-bottom: 25px;
+    padding-top: 89px;
+    font-weight: bold;
+    color: currentColor;
+}
+
+.middle-text p {
+    margin: 0 0 12px;
+    color: white;
+}
+/* .part-list ul:hover{
+    background-color: cadetblue;
+} */
+.part-list ul li:hover{
+    background-color: #5cfc80;
+    color: #f9f7f7;
+    font-weight: 600;
+}
+
+.year-list ul li:hover{
+    background-color: #5cfc80;
+    color: white;
+    font-weight: 600;
+}
+
+.year-list ul li a:hover {
+    color: #efeaea;
+    font-weight: 600;
+}
+
+.widget-contain {
+    width: 30%;
+    float: left;
+    margin-right: 35px;
+    color: #673AB7;
+    background-color: #000000e3;
+}
+
+a {
+/* 
+    /* color: #337ab7;*//* text-decoration: none; */color: #5cfc80;/* display: block; */
+     */}
+.slider ul {
+        margin: 27px 38px 0;
+    }
+.slider ul li {
+        margin: 5px 4px 0;
+        display: inline-block;
+        padding: 0px;
+    }
+
+.slider p {
+    font-size: 30px;
+    color: wheat;
+    font-weight: 600;
+    margin: 0 79px;
+}
+
+a.button-1 {
+    background-color: antiquewhite;
+    /* height: 53px; */
+    /* width: 100px; */
+    margin: 0px;
+    padding: 10px;
+}
+a.button-1:hover{
+    background-color: rgba(221, 197, 167, 0.054);
+    color: coral;
+    border: 2px solid coral;
+}
+a.button-2 {
+    background-color: rgba(221, 197, 167, 0.054);
+    /* height: 53px; */
+    /* width: 100px; */
+    margin: 0px;
+    padding: 10px;
+    border: 2px solid coral;
+}
+a.button-2:hover{
+    background-color:antiquewhite;
+    color: white;
+    border: 0px;
+}
+
+.slider-all {
+    border-left: 10px solid #e89c80ab;
+    margin-left: 178px;
+}
+
+.getText {
+    height: 350px;
+    width: 100%;
+    background-color: #673AB7;
+}
+
+.leftText {
+    float: left;
+    width: 67%;
+}
+
+.leftText h2 {
+    margin: 130px 0 0 161px;
+    font-size: 34px;
+    color: #fdf6f6;
+}
+.leftText p {
+    margin: 5px 0 0 161px;
+    font-size: 20px;
+    color: #f6f2f9;
+}
+
+.rightText {
+    margin: 140px 0 0 61px;
+    float: left;
+}
+
+.rightText h3 {
+    font-size: 20px;
+    color: #fbfafa;
+    padding: 10px;
+    border: 2px solid #f5f4f7;
+    display: block;
+}
+.rightText h3:hover{
+    background-color: blueviolet;
+    color: white;
+    display: block;
+}
+
+/* start post part here  */
+
+
+.postStyle {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 30px;
+}
+
+.post-contain {
+    width: 350px;
+    float: left;
+    padding: 8px;
+    /* background-color: blueviolet; */
+    margin: 19px -11px 0 30px;
+}
+
+
+.postImg img {
+        width: 100%;
+        padding: 2px;
+        border-radius: 10px;
+}
+.postImg {
+        width: 100%;
+}    
+
+.postText {
+    width: 100%;
+}
+
+.postText h2 {
+    font-size: 23px;
+    color: #673AB7;
+    padding: 2px;
+    text-align: justify;
+    line-height: 28px;
+    font-weight: inherit;
+}
+.postText p {
+    text-align: justify;
+    padding: 10px;
+    color: #1c2123;
+    line-height: initial;
+    font-weight: 300;
+}
+
+.post-related h4 {
+    float: left;
+    margin-right: 20px;
+    color: aliceblue;
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: 4px;
+}
+
+.post-related p {
+    float: left;
+    margin-right: 8px;
+    color: aliceblue;
+    font-size: 14px;
+    margin-left: 39px;
+}
+
+span {
+    color: aliceblue;
+    float: right;
+    margin: 0 20px 0 0;
+} 
+
+
+/*  anathor style of by year and part  */
+
+
+.sidetext-position{
+    background-color: #f3fbf3;
+    height: 400px;
+    margin: auto;
+    margin-top: 75px;
+    color: #333232;
+    margin-bottom: 70px;
+}
+.sidetext {
+    height: 480px;
+    width: 33%;
+    margin: 11px 0px 0px 1px;
+    padding: 77px 0px 0px 63px;
+    float: left;
+}
+
+.sidetext h2 {
+    padding: 0px 0px 19px 0px;
+    margin: 0px;
+    font-size: 40px;
+    color: #483e3e;
+    font-weight: bold;
+}
+
+.sidetext p{
+    text-align: justify;
+    margin-right: 42px;
+    line-height: 31px;
+    font-size: 19px;
+}
+
+
+.money-box{
+    height: 400px;
+    width: 31%;
+    float: right;
+    background-color: #e8dcdc33;
+    margin: 0px 0px -3px 25px;
+    text-align: center;
+}
+.money-box:hover{
+    background-color: #5cfc80;
+    color: #fdfbfb;
+}
+.icon-box{
+    height: 120px;
+    width: 120px;
+    font-size: 36px;
+    background-color: #e7ece7;
+    padding: 0px 0px 0px 0px;
+    margin-left: 125px;
+    margin-bottom: 14px;
+    margin-top: -39px;
+    border-radius: 83px;
+}
+.icon-box:hover{
+    background-color: #e3e3ec;
+    color: white;
+}
+
+.icon-box i{
+    padding: 38px 0px 0px 0px;
+}
+
+.money-box span{
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    margin: 0 0 0 0px;
+    float: initial;
+}
+
+.money-box p{
+    margin: 0px;
+    line-height: 32px;
+    font-size: 19px;
+    font-weight: 400;
+    color: black;
+    /* opacity: 0.7; */
+}
+.money-box:hover p {
+    background-color: #fbf9f9;
+    color: #5cfc80;
+    width: 85%;
+    margin-left: 31px;
+}
+
+
+.forbottomborder{
+    width: 291px;
+    padding: 0px;
+    margin: 0px 0px 14px 103px;
+}
+ /* end here  part and date s */
+
+
+ /* CopyRight part */
+ .copyRight {
+    width: 100%;
+    height: 92px;
+    background-color: aliceblue;
+}
+
+.another-style-top-text h2 {
+    font-size: 35px;
+    color: black;
+    font-weight: initial;
+    margin: 76px 0;
+}
+.copyRight h4 {
+    font-size: 17px;
+    color: black;
+    text-align: center;
+    line-height: inherit;
+    margin: 3px 0 12px 0;
+    padding-top: 7px;
+
+}
+
+/* our subject part  */
+
+
+.main-catagory{
+    height: 378px;
+    width: 100%;
+    /* background-color: #f4f0ffb3; */
+    margin: auto;
+    /* margin: 18px 65px; */
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+
+.catagory {
+    height: 116px;
+    width: 22%;
+    float: left;
+    margin-left: 30px;
+    color: black;
+    opacity: 0.7;
+    padding-top: 15px;
+}
+.catagory:hover{
+    color: #6cfc80;
+    transition: all 0.5s
+
+}
+.catagory-icon{
+    font-size: 55px;
+    float: left;
+    margin: 1px 6px 0 17px;
+}
+
+.catagory-text{
+    padding-top: 16px;
+    font-size: 18px;
+    text-align: CENTER;
+    color: black;
+    margin-top: 6px;
+}
+
+/* .catagory-text:hover{
+    color: white
+} */
+/*  our subject part end here  */
+
+.go-program{ background: #5fcf80;padding: 19px 30px;text-align: center;border-radius: 4px;font-size: 17px;color: white;text-decoration: none;width: 15%;margin-left: 555px;margin-top: 30px;}
+.go-program:hover{
+    background-color: white;
+    color: #5fcf80;
+    border: 1px solid #5fcf80;
+    transition: 1s all;
+}
+
+/* widget css start here */
+
+.widget-container {
+    background-color: #000000d1;
+    color: white;
+}
+
+.versity-logo img {
+    height: 100px;
+    float: left;
+}
+
+.versity-logo a {
+    color: white;
+    font-size: 27px;
+    margin-left: 10px;
+}
+.versity-logo {
+    margin-bottom: 79px;
+}
+
+.widget-list ul li {
+    text-align: start;
+    text-decoration: none;
+    margin: 8px 0 0 0;
+    list-style: none;
+}
+
+.social-widget ul li {
+    list-style: none;
+    float: left;
+    margin-left: 43px;
+    font-size: 45px;
+}
+.social-widget ul{
+    text-align: center;
+    margin-left: 350px;
+}

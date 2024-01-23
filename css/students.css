@@ -1,0 +1,16 @@
+.dept-student {
+    background: #5fcf80;
+    font-size: 24px;
+    color: white;
+    padding: 15px 0px 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    text-align: center;
+}
+
+a.white-text {
+    color: white;
+}
+a.white-text:hover{
+    color: black;
+}
